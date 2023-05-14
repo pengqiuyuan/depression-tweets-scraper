@@ -9,7 +9,7 @@ DATA_PATH = pathlib.Path("data/")
 DATA_PATH.mkdir(parents=True, exist_ok=True)
 MAX_RESULT = 100
 #DATE_END = '2023-05-13'
-HASHTAG = '清华大学'
+HASHTAG = 'depression'
 JSON_FILENAME = DATA_PATH / str(datetime.datetime.today().date())
 
 def sns_scrape():
