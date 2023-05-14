@@ -8,7 +8,7 @@ DATE_START = str(datetime.datetime.today().date() - datetime.timedelta(days=1))
 DATA_PATH = pathlib.Path("data/")
 DATA_PATH.mkdir(parents=True, exist_ok=True)
 MAX_RESULT = 100
-DATE_END = '2023-05-13'
+#DATE_END = '2023-05-13'
 HASHTAG = '清华大学'
 JSON_FILENAME = DATA_PATH / str(datetime.datetime.today().date())
 
