@@ -15,7 +15,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-  - cron: '0 0 * * *' # @daily
+  # - cron: '0 0 * * *' # @daily
 
 jobs:
   scheduled:
